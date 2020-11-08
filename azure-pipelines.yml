@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: echo Hello, world!
--bash: echo "Our first PipeLine"
+- bash: echo "Our first PipeLine"
   displayName: 'Run a one-line script'
 
 - script: |
